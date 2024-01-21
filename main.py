@@ -2,8 +2,8 @@ import webbrowser as wb
 import time
 from subprocess import Popen
 
-sites = ["https://chat.openai.com/" , "https://twitter.com/" , "https://discord.com/channels/@me" , "https://web.whatsapp.com/"]
-apps = [r'"C:\Users\Public\Desktop\Google Chrome.lnk"' , r"C:\Users\windows\OneDrive\Desktop\Notion.lnk"]
+sites = ["https://www.example.com/"]
+apps = [r'"C:\path\to\app name"' ]
 
 def open_tabs(urls):
     for url in urls:
